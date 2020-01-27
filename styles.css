@@ -1,0 +1,130 @@
+
+body {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #EAF9F5;
+    position: relative;
+    padding: 100px;
+
+}
+
+.bottom-container {
+    margin-top: 80px;
+    margin-bottom: 0px;
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 400px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.code-img {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.python-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.profile {
+    margin-top: 70px;
+}
+
+.first-para {
+    color: #40514E;
+}
+
+.line-break {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    color: #EAF6F6;
+    width: 4%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.last-text {
+    color: #EAF6F6;
+    margin-top: 25px;
+}
+
+.footer-link1 {
+    position: relative;
+    right: 40px;
+}
+
+.footer-link3 {
+    position: relative;
+    left: 40px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #66bfbf 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+    font-weight:bold;
+    margin-top: 50px;
+	padding:13px 32px;
+    text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #599bb3 100%);
+	background-color:#66bfbf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
